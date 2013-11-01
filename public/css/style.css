@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'canterbold';
+    src: url('../fonts/canter_bold-webfont.eot');
+    src: url('../fonts/canter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/canter_bold-webfont.woff') format('woff'),
+         url('../fonts/canter_bold-webfont.ttf') format('truetype'),
+         url('../fonts/canter_bold-webfont.svg#canterbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleoregular';
+    src: url('../fonts/aleo-regular-webfont.eot');
+    src: url('../fonts/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo-regular-webfont.woff') format('woff'),
+         url('../fonts/aleo-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aleo-regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleobold';
+    src: url('../fonts/aleo-bold-webfont.eot');
+    src: url('../fonts/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo-bold-webfont.woff') format('woff'),
+         url('../fonts/aleo-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aleo-bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.gmnoprint {
+	display: none;
+}
+body {
+	margin: 0;
+	background-color: #193341;
+}
+#map_canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+header {
+	position: absolute;
+	width: 100%;
+	border-top: solid 10px rgba(0,0,0,0.6);
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+header .logo {
+	position: relative;
+	width: 204px;
+	height: 79px;
+	margin: 0 auto;
+	background: url(../images/logo.png) top left no-repeat;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background: url(../images/footer-bg.png) repeat-x;
+	z-index: 9999;
+	bottom: 0;
+	left: 0;
+}
+footer div.lang {
+	font-family: 'canterbold', serif;
+	width: 80px;
+	height: 80px;
+	line-height: 90px;
+	float: right;
+	font-size: 26px;
+	color: #ffffff;
+	text-align: center;
+	border-left: solid 1px #193341;
+}
+div.lang#other {
+	border-left: solid 0px #193341;
+	background: url(../images/other.png) top center no-repeat;	
+}
+div.lang#Portuguese {
+	background: url(../images/pt.png) top left no-repeat;	
+}
+div.lang#Spanish {
+	background: url(../images/es.png) top left no-repeat;	
+}
+div.lang#French {
+	background: url(../images/fr.png) top left no-repeat;	
+}
+div.lang#German {
+	background: url(../images/de.png) top left no-repeat;	
+}
+div.lang#English {
+	background: url(../images/en.png) top left no-repeat;	
+}
+div.lang#Italian {
+	background: url(../images/it.png) top left no-repeat;	
+}
+div.lang#Turkish {
+	background: url(../images/tr.png) top left no-repeat;	
+}
+div.lang#Russian {
+	background: url(../images/ru.png) top left no-repeat;	
+}
+div.lang#Korean {
+	background: url(../images/ko.png) top left no-repeat;	
+}
+div.lang#Japanese {
+	background: url(../images/ja.png) top left no-repeat;	
+}
+.twitDetail {
+	color: #2c5a71;
+	width: 320px;
+}
+.twitDetail table {
+	width: 100%;
+	color: #2c5a71;
+}
+.twitDetail table tr th {
+	border-top: solid 1px #2c5a71;
+	border-bottom: solid 1px #2c5a71;
+	font-size: 20px;
+	text-align: left;
+	line-height: 26px;
+	font-family: 'aleobold';
+	padding: 0 4px;
+	font-weight: normal;
+}
+.twitDetail table tr th.lang-code {
+	border-left: solid 1px #2c5a71;
+	background-color: #2c5a71;
+	color: #ffffff;
+	width: 35px;
+	text-align: center;
+	font-family: 'aleoregular';
+	font-size: 16px;
+	padding: 0;
+}
+.twitDetail table tr td {
+	font-family: 'aleoregular';
+	border-bottom: solid 1px #2c5a71;
+	font-size: 16px;
+	padding: 4px;
+}

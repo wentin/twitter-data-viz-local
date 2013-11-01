@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Twitter Map</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDTTbVPzJ84Wwj7oNK2SD9GG2C4hO4hrGo&sensor=false&amp;language=en"></script>
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<header> 
+		<div class="logo"></div>
+	</header>
+    <div class="map_wrapper">
+        <div id="map_canvas"></div>
+    </div>    
+    <footer>
+    	<div class="lang" id="Portuguese">Portuguese</div>
+    	<div class="lang" id="Spanish">Spanish</div>
+    	<div class="lang" id="French">French</div>
+    	<div class="lang" id="German">German</div>
+    	<div class="lang" id="English">English</div>
+    	<div class="lang" id="Italian">Italian</div>
+    	<div class="lang" id="Turkish">Turkish</div>
+    	<div class="lang" id="Russian">Russian</div>
+    	<div class="lang" id="Korean">Korean</div>
+    	<div class="lang" id="Japanese">Japanese</div>
+    	<div class="lang" id="other">Other Languages</div>
+    </footer>
+    <div class="twitDetail">
+    <table cellpadding="0" cellspacing="0">
+    	<tr>
+    		<th>
+    			data.user.screen_name
+    		</th>
+    		<th class="lang-code">
+    			data.lang
+    		</th>
+    	</tr>
+    	<tr>
+    		<td colspan="2">
+    			data.text
+    		</td>
+    	</tr>
+    </table>
+    </div>
+</body>
+</html>

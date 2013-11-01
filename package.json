@@ -1,0 +1,21 @@
+{
+  "name": "twitter-data",
+  "version": "1.0.0-4",
+  "description": "a live twitter data viz",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "0.9.6",
+    "connect": "1.9.2",
+    "twit": "*"
+  },
+  "author": "Wenting Zhang",
+  "license": "BSD",
+  "subdomain": "wentin-twitter-data-viz",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
