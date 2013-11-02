@@ -8,7 +8,7 @@ The project is streaming twitter worldwide, when people include "!!!" in their t
 
 During this project I went back and forth between twitter search API and streaming API. They all have their own pros and limitations, some ideas can not be implemented due to twitter API policy restriction. Originally my idea is to do a 3d data visualization using threejs; the data being visualized are how many twits on a certain topic are published around the user's geo-location, sampled from smaller radius to larger, to show how the topic goes up or down outward from the user. The idea behind is:
 Do you care things that is beyond your life circle? Do others who lives far from you care things that you are paying attention to?
-However it is not implemented because twitter search api only return 100 result per attempt, and there is not an officially twitter-supported way to get the accurate count of the result from the search. Twitter announced in their API documentation that twitter search API shouldn't be used as data collection tool and analytics research tool. So that didn't happen as I wished. 
+However it is not implemented because twitter search api only return 100 results per attempt, and there is not an officially twitter-supported way to get the accurate count of the result from the search. Twitter announced in their API documentation that twitter search API shouldn't be used as data collection tool and analytics research tool. So that didn't happen as I wished. 
 
 Instead this project used twitter streaming API. It has many limitation too, for example, there is no history data, and one app can only maintain one stream at a time.
 
