@@ -12,6 +12,7 @@ However it is not implemented because twitter search api only return 100 result 
 
 Instead this project used twitter streaming API. It has many limitation too, for example, there is no history data, and one app can only maintain one stream at a time.
 
-The "!!!" keyword can actually be anything, perhaps from a user input. I intentionally hard coded it so I have more control of the project's performance, for example how frequently the map gets a new data; and make a stronger design intention that it is actually making a point by visualizing these data. 
+The "!!!" keyword can actually be anything, perhaps fetched from a user input. I intentionally hard coded it to “!!!” so I have better control of the project's performance,  and make a stronger design intention that it is making a point by visualizing these data, instead of being just an information tool. The hierarchy of data visualization is Data -> Information -> Knowledge -> Wisdom, aka. DIKW pyramid. Any data visualization should be working toward Knowledge rather than staying at Information stage.
 
 Thanks for reading! Any feedback is welcome!
+
