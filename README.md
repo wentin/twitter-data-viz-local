@@ -2,7 +2,7 @@ Here is the online version
 http://wentin-twitter-data-viz.nodejitsu.com/
 
 The project is called "!!!", the goal is to explore one question:
-How emotional or dramatic people who speaks different languages are. In another word, how do people around the word express themselves in different ways and manners.
+How emotional or dramatic people who speak different languages are. In another word, how do people around the word express themselves in different ways and manners.
 
 The project is streaming twitter worldwide, when people include "!!!" in their twit, the twit will show up on this map in real time, pins of those twits are created by geo-location and color-coded according to the language its creator are using. WebSocket is used to make the live update happen.
 
