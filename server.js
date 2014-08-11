@@ -27,7 +27,7 @@ twitter_data.sockets.on('connection', function (socket) {
 
   var stream = T.stream('statuses/filter', { track: '!!!' })
   stream.on('tweet', function (tweet) {
-    socket.broadcast.emit('update', tweet);
+    socket.emit('update', tweet);
   })
 
 
